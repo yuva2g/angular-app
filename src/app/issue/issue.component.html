@@ -1,0 +1,22 @@
+<input type="file" name="filelist" (change)=filesAdded($event.target.files) />
+
+<h3>Issues</h3>
+
+<table datatable [dtOptions]="dtOptions" [dtTrigger]="dtTrigger" class="row-border hover">
+  <thead>
+    <tr>
+      <th>First name</th>
+      <th>Sur name</th>
+      <th>Issue count</th>
+      <th>Date of Birth</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let issue of issues">
+      <td>{{ issue.firstname }}</td>
+      <td>{{ issue.surname }}</td>
+      <td>{{ issue.count }}</td>
+      <td>{{ issue.dob }}</td>
+    </tr>
+  </tbody>
+</table>

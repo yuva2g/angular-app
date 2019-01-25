@@ -20,7 +20,8 @@ export class IssueComponent implements OnInit, OnDestroy {
   ngOnInit() {
     this.dtOptions = {
       pagingType: 'full_numbers',
-      pageLength: 2
+      pageLength: 5,
+      retrieve: true
     };
   }
 

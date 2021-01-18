@@ -1,4 +1,4 @@
-# AngularApp
+# AngularApp Demo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.3.
 Goal of this project is to develop a component (issue) which can be pluggable in any Angular component developed.
